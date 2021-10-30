@@ -66,7 +66,7 @@ def check_mail(email,msg):
         recipient_list=[email]   
 
     )
-    #return HttpResponse('测试邮件已发出请注意查收')
+    return HttpResponse('测试邮件已发出请注意查收')
 
 def index_view(request,pageId=1):
     all_data = Table.objects.filter()

@@ -22,5 +22,6 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.main_view),
-    path('table/',include('table.urls'))
+    path('table/',include('table.urls')),
+    path('graph/',include('graph.urls'))
 ]
