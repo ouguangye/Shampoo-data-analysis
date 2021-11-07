@@ -21,18 +21,18 @@
 <body>
     <table 
         class="table border-primary table-hover table-bordered" 
-        style="width:40%;margin:0 auto;"
+        style="width:80%;margin:0 auto;"
     >
         <tr>
             <th>id</th>
-            <th>product_name</th>
-            <th>product_price</th>
-            <th>product_warehouse</th>
-            <th>product_shop_name</th>
+            <th>产品名字</th>
+            <th>产品价格</th>
+            <th>经营形式</th>
+            <th>商店名称</th>
             <th>product_location</th>
-            <th>product_function</th>
-            <th>goodRate</th>
-            <th>commentSum</th>
+            <th>商品功能</th>
+            <th>好评率</th>
+            <th>评论数量</th>
         </tr>
         {%for data in ulist%}
         <tr>
@@ -118,7 +118,18 @@
   </div>
   <div class="offcanvas-body">
 	<div>
-
+    <h3>项目构成要素</h3>
+    <ul>
+      <li>网络爬虫，所有的数据都源自于京东页面上的数据，共有3999条数据</li>
+      <li>后台django框架，用于处理前后端交互的事宜</li>
+      <li>pyechart数据分析，生成了饼图、词云图</li>
+  </ul>
+    <h3>功能</h3>
+    <ul>
+      <li>用了分页组件，可以按页数查看这589页的数据<li>
+      <li>有了数据分析生成的图形，可以更好得了解洗发水的相关信息</li>
+      <li>分享按钮具有发邮件的功能，可以把自己喜欢的洗发水推荐给别人，让别人更加强大</li>
+    </ul>
 	</div>
   </div>
 </div>
