@@ -1,3 +1,13 @@
+### 运行项目
+配置相关邮箱
+
+![image](https://user-images.githubusercontent.com/78332649/212888064-bcbbf548-0869-4705-90a4-0f10403bdc1a.png)
+
+运行项目
+```
+python manage.py runserver
+```
+
 ### 项目构成要素
 - 网络爬虫，所有的数据都源自于京东页面上的数据，共有3999条数据
 - 后台django框架，用于处理前后端交互的事宜
